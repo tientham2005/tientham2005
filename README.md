@@ -47,20 +47,16 @@
 | Stack | ![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?logo=anthropic&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-4-06B6D4?logo=tailwindcss&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white) |
 | Highlights | Cron cào RSS / YouTube · định tuyến model theo nền tảng · tóm tắt video theo mốc thời gian · chatbot hỏi đáp theo bài |
 
-<div>
-<img src="https://github-profile-trophy.vercel.app/?username=tientham2005&theme=gruvbox&row=1&column=7&no-frame=true&no-bg=true" alt="trophy" />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+    <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D contribution chart" />
+  </picture>
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tientham2005/tientham2005/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tientham2005/tientham2005/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/tientham2005/tientham2005/output/github-contribution-grid-snake.svg">
 </picture>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=tientham2005&theme=xcode&bg_color=FF000000&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=tientham2005&theme=xcode&bg_color=FF000000&color=000000&hide_border=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tientham2005&theme=xcode&bg_color=FF000000&hide_border=true" />
-  </picture>
-</p>

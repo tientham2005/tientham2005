@@ -1,0 +1,32 @@
+name: Profile 3D contributions
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit 3D contribution charts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          git commit -m "Update 3D contribution charts [skip ci]" || exit 0
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "push attempt $attempt failed, retrying..."
+            sleep 5
+          done
