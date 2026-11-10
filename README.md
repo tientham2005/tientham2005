@@ -9,7 +9,7 @@
 
 🎯 **AI Agent · Data Platform**
 
-🏢 199 PRs merged on in-house AI agent & data platform projects (private repos, as of 2026-11-10)
+🏢 Building in-house AI agents at **Lam Son Retail** (HAPAS · MATE MADE)
 
 ✉️ [tienthamnguyen6@gmail.com](mailto:tienthamnguyen6@gmail.com)
 
@@ -21,6 +21,24 @@
     <source media="(prefers-color-scheme: light)" srcset="./profile/streak-light.svg" />
     <img src="./profile/streak-light.svg" alt="GitHub Streak" />
   </picture>
+</p>
+
+## Work @ Lam Son Retail
+
+<sub>Repo private của công ty nên không có link; số liệu tính đến 2026-11-10.</sub>
+
+| Project | Role | What it does | Stack | Activity |
+| --- | --- | --- | --- | --- |
+| **Mark Trần** · Social Listening Agent 🔒 | Owner | Bot Lark lắng nghe mạng xã hội cho HAPAS: thu thập FB / IG / TikTok / Threads / báo, gán nhãn sắc thái bằng AI, dashboard chỉ số, TikTok & Meta Ads, cảnh báo page lừa đảo + máy học | Python · PostgreSQL · Apify · BigQuery · Lark | 137 commits · 137 PRs merged |
+| **Fina** · Finance Agent 🔒 | Owner | Tự động hoá báo cáo dòng tiền: phân loại sao kê, đồng bộ đề nghị thanh toán, gom kế hoạch dòng tiền theo brand | Python · Lark · Google Sheets | 124 commits |
+| **LSR Agent Platform** 🔒 | Core contributor | Nền tảng agent nội bộ: console, cổng kết nối MCP dùng chung cho mọi agent, hạn mức, đăng ký & chấm điểm agent | Python · TypeScript · BigQuery | 80 commits · 60 PRs merged |
+| **HR Agent** 🔒 | Owner | Trợ lý nhân sự trên Lark, phân quyền ai xem được tài liệu nào, chạy trên Claude Agent SDK | Python · Claude Agent SDK · Lark | 27 commits |
+| **Mino** · Meeting Notes Agent 🔒 | Owner | Họp xong tự phát hiện → phiên âm Whisper → sinh recap → gửi biên bản cho người dự | Python · Whisper · Lark | 22 commits |
+| **[Lark MCP v3 Remote](https://github.com/LamsonRetail/hapas-lark-remote)** | Owner | MCP server từ xa cho Lark: một URL cho cả công ty, mỗi người đăng nhập OAuth của mình | Node.js · MCP · OAuth | — |
+| **[Invoice Extract Tool](https://github.com/LamsonRetail/hapas_invoice_extract_tool)** | Owner | Bóc tách hoá đơn chạy song song, đọc được cột Lookup của Base | Python · Lark Base | 7 commits |
+
+<p align="center">
+<sub>≈ 400 commits · 199 PRs merged across 7 projects</sub>
 </p>
 
 ## Open Source Contributions
